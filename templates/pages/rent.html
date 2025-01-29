@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<section class="bg-dark py-5 my-5 mx-4 rounded-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h3 class="fw-bold">Подобрали для вас несколько вариантов:</h3>
+            </div>
+        </div>
+        <div class="py-5 p-lg-5">
+            <div class="row row-cols-1 row-cols-md-2" style="display: flex; flex-wrap: wrap;">
+                <!-- Apartment 1 -->
+                <div class="col mb-5">
+                    <div class="card shadow-sm p-4 text-white shadow" style="height: 100%;">
+                        <div class="row g-4">
+                            <div class="col-md-5">
+                                <div>
+                                    <h5 class="fw-bold card-title">Квартира-студия, 40м², 12/17 эт.</h5>
+                                    <p class="text-muted card-text mb-4">Омская обл., Омск, ул. Красный Путь, 101к3<br>р-н Советский</p>
+                                    <p class="mt-4">Количество комнат: студия<br> Общая площадь: 40 м²<br> Жилая площадь: 20 м²<br> Этаж: 12 из 17<br> Балкон или лоджия: балкон<br> Дополнительно: гардеробная<br> Санузел: совмещенный</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img loading="lazy" src="{% static 'img/apartments/ap1.png' %}" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <h4 class="fw-bold">45 000 ₽ в месяц</h4>
+                            <button class="btn btn-danger shadow d-block w-50" type="submit" style="border-radius: 12px;">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apartment 2 -->
+                <div class="col mb-5">
+                    <div class="card shadow-sm p-4 text-white shadow" style="height: 100%;">
+                        <div class="row g-4">
+                            <div class="col-md-5">
+                                <div>
+                                    <h5 class="fw-bold card-title">3-к. квартира, 100 м², 2/6 эт.</h5>
+                                    <p class="text-muted card-text mb-4">Омская обл., Омск, мкр-н Старгород, ул. Шукшина<br>р-н Центральный</p>
+                                    <p class="mt-4">Количество комнат: 3<br>Общая площадь: 100 м²<br>Площадь кухни: 30 м²<br>Этаж: 2 из 6<br>Дополнительно: гардеробная<br>Тип комнат: изолированные</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img loading="lazy" src="{% static 'img/apartments/ap2.png' %}" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <h4 class="fw-bold">78 000 ₽ в месяц</h4>
+                            <button class="btn btn-danger shadow d-block w-50" type="submit" style="border-radius: 12px;">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apartment 3 -->
+                <div class="col mb-5">
+                    <div class="card shadow-sm p-4 text-white shadow" style="height: 100%;">
+                        <div class="row g-4">
+                            <div class="col-md-5">
+                                <div>
+                                    <h5 class="fw-bold card-title">2-к. квартира, 125 м², 8/13 эт.</h5>
+                                    <p class="text-muted card-text mb-4">Омская обл., Омск, наб. Тухачевского, 16<br>р-н Центральный</p>
+                                    <p class="mt-4">Количество комнат: 2<br>Общая площадь: 125 м²<br>Площадь кухни: 8 м²<br>Жилая площадь: 95 м²<br>Этаж: 8 из 13<br>Балкон или лоджия: лоджия<br>Дополнительно: гардеробная<br>Тип комнат: изолированные</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img loading="lazy" src="{% static 'img/apartments/ap3.png' %}" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <h4 class="fw-bold">110 000 ₽ в месяц</h4>
+                            <button class="btn btn-danger shadow d-block w-50" type="submit" style="border-radius: 12px;">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apartment 4 -->
+                <div class="col mb-5">
+                    <div class="card shadow-sm p-4 text-white shadow" style="height: 100%;">
+                        <div class="row g-4">
+                            <div class="col-md-5">
+                                <div>
+                                    <h5 class="fw-bold card-title">3-к. квартира, 125 м², 5/6 эт.</h5>
+                                    <p class="text-muted card-text mb-4">Омская обл., Омск, мкр-н Старгород, ул. Тютчева, 4<br>р-н Центральный</p>
+                                    <p class="mt-4">Количество комнат: 3<br>Общая площадь: 125 м²<br>Площадь кухни: 20 м²<br>Этаж: 5 из 6<br>Балкон или лоджия: балкон, лоджия<br>Дополнительно: гардеробная<br>Тип комнат: изолированные</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img loading="lazy" src="{% static 'img/apartments/ap4.png' %}" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <h4 class="fw-bold">90 000 ₽ в месяц</h4>
+                            <button class="btn btn-danger shadow d-block w-50" type="submit" style="border-radius: 12px;">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apartment 5 -->
+                <div class="col mb-4">
+                    <div class="card shadow-sm p-4 text-white shadow" style="height: 100%;">
+                        <div class="row g-4">
+                            <div class="col-md-5">
+                                <div>
+                                    <h5 class="fw-bold card-title">3-к. квартира, 101 м², 6/24 эт.</h5>
+                                    <p class="text-muted card-text mb-4">Омская обл., Омск, Сенная ул., 30<br>р-н Центральный</p>
+                                    <p class="mt-4">Количество комнат: 3<br>Общая площадь: 101 м²<br>Площадь кухни: 20 м²<br>Жилая площадь: 70 м²<br>Этаж: 6 из 24<br>Балкон или лоджия: лоджия<br>Дополнительно: гардеробная<br>Тип комнат: смежные</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img loading="lazy" src="{% static 'img/apartments/ap5.png' %}" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <h4 class="fw-bold">140 000 ₽ в месяц</h4>
+                            <button class="btn btn-danger shadow d-block w-50" type="submit" style="border-radius: 12px;">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apartment 6 -->
+                <div class="col mb-4">
+                    <div class="card shadow-sm p-4 text-white shadow" style="height: 100%;">
+                        <div class="row g-4">
+                            <div class="col-md-5">
+                                <div>
+                                    <h5 class="fw-bold card-title">2-к. квартира, 80 м², 2/6 эт.</h5>
+                                    <p class="text-muted card-text mb-4">Омская обл., Омск, мкр-н Старгород, ул. Шукшина, 2<br>р-н Центральный</p>
+                                    <p class="mt-4">Количество комнат: 2<br>Общая площадь: 80 м²<br>Площадь кухни: 10 м²<br>Этаж: 2 из 6<br>Балкон или лоджия: лоджия<br>Дополнительно: гардеробная<br>Тип комнат: изолированные, смежные</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img loading="lazy" src="{% static 'img/apartments/ap6.png' %}" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <h4 class="fw-bold">78 000 ₽ в месяц</h4>
+                            <button class="btn btn-danger shadow d-block w-50" type="submit" style="border-radius: 12px;">Связаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
